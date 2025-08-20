@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FitZone – Gym & Fitness Club</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Marquee -->
+  <marquee class="welcome-banner">🏋️‍♂️ Welcome to FitZone – Your Fitness Journey Starts Here! 💪</marquee>
+
+  <!-- Header & Navigation -->
+  <header class="navbar">
+    <div class="logo">FitZone</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+      <a id="top"></a>
+    </nav>
+  </header>
+
+<!-- back to top button -->
+  <a href="#top" class="back-to-top" title="Back to Top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Transform Your Body with FitZone</h1>
+    <a href="#pricing" class="btn">Join Now</a>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <h2>Our Core Services</h2>
+    <div class="card-container">
+      <div class="card"><i class="fas fa-child"></i> Yoga</div>
+      <div class="card"><i class="fas fa-heartbeat"></i> Cardio Training</div>
+      <div class="card"><i class="fas fa-music"></i> Zumba</div>
+      <div class="card"><i class="fas fa-dumbbell"></i> Weightlifting</div>
+      <div class="card"><i class="fas fa-bolt"></i> HIIT & CrossFit</div>
+    </div>
+  </section>
+
+  <!-- Class Schedule -->
+  <section class="schedule" id="schedule">
+    <h2>Class Schedule</h2>
+    <table>
+      <tr>
+        <th>Day</th>
+        <th>Time</th>
+        <th>Class</th>
+        <th>Instructor</th>
+      </tr>
+      <tr>
+        <td>Mon to Thurs</td><td>6:00 AM - 1:00 PM & 4:00 PM - 10:00 PM</td><td>Intense Workout</td><td>Rohan Sir</td>
+      </tr>
+      <tr>
+        <td>Friday</td><td>6:00 AM - 10:00 PM</td><td>Cardio</td><td>Sanjoy Sir</td>
+      </tr>
+      <tr>
+        <td>Saturday</td><td>6:00 AM - 12:00 PM</td><td>Yoga</td><td>Hemant Sir</td>
+      </tr>
+    </table>
+  </section>
+
+ 
+
+  <!-- Trainer Profiles -->
+  <section class="trainers" id="trainers">
+    <h2>Meet Our Trainers</h2>
+    <div class="trainer-cards">
+      <div class="trainer">
+        <img src="https://outlift.com/wp-content/uploads/2019/08/sumo-deadlift-illustration.jpg" alt="Trainer">
+        <h3>Rohan Sir</h3>
+        <p>Intense Workout Trainer</p>
+        <p>Passionate about HardWorking and Intense training.</p>
+      </div>
+      <div class="trainer">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpyudkB-Ev4DWYTFr976MoXxj2r63Ubo5pfA&s" alt="Trainer">
+        <h3>Sanjog Sir</h3>
+        <p>Cardio Coach</p>
+        <p>Specialist in high intensity cardio workouts.</p>
+      </div>
+      <div class="trainer">
+        <img src="https://thumbs.dreamstime.com/b/anime-young-man-doing-yoga-sandy-beach-trees-bright-sunny-morning-ghibli-style-ai-generate-generated-image-375525624.jpg" alt="Trainer">
+        <h3>Hemant Sir</h3>
+        <p>Yoga Trainer</p>
+        <p>Passionate about Yoga training.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Plans -->
+  <section class="pricing" id="pricing">
+    <h2>Membership Plans</h2>
+    <div class="pricing-table">
+      <div class="plan">
+        <h3>Basic</h3>
+        <p>₹999/month</p>
+        <ul>
+          <li>Gym Access</li>
+          <li>Group Classes</li>
+        </ul>
+        <a href="#contact" class="btn">Sign Up</a>
+      </div>
+      <div class="plan">
+        <h3>Standard</h3>
+        <p>₹1499/month</p>
+        <ul>
+          <li>All Standard Features</li>
+          <li>Personal Trainer</li>
+        </ul>
+        <a href="#contact" class="btn">Sign Up</a>
+      </div>
+      <div class="plan">
+        <h3>Premium</h3>
+        <p>₹2499/month</p>
+        <ul>
+          <li>All Premium Features</li>
+          <li>Personal Trainer</li>
+        </ul>
+        <a href="#contact" class="btn">Sign Up</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="email" placeholder="Email" required />
+      <input type="text" placeholder="Preferred Plan" />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+    <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 FitZone | All Rights Reserved</p>
+    <p>Opening Hours: 6AM – 10PM</p>
+    <p>Fitness Street, Baner, Pune | 📞 +91 77981 07346</p>
+    
+    <!-- Social Media Icons -->
+    <div class="social-icons">
+      <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+
+
+</body>
+</html>
